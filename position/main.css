@@ -1,0 +1,53 @@
+body {
+    height: 200vh;
+    width: 100vw;
+    background: rgb(207, 203, 203);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+
+.outer {
+    height: 80%;
+    width: 80%;
+    background: rgb(88, 44, 44);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* position: relative; */
+}
+
+.inner {
+    height: 80%;
+    width: 80%;
+    background: rgb(221, 109, 221);
+    position: relative;
+    /* position: fixed; */
+}
+
+.cir {
+    height: 100px;
+    width: 100px;
+    background-color: peachpuff;
+    border-radius: 50%;
+    position: absolute;
+}
+
+.top {
+    top: 0;
+}
+
+.bottom {
+    bottom: 0;
+}
+
+.left {
+    left: 0;
+}
+
+.right {
+    right: 0;
+    /* right: -50px; */
+}
