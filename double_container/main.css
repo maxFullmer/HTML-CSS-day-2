@@ -1,0 +1,33 @@
+header {
+    width: 100%;
+    height: 100px;
+    background-color: beige;
+}
+
+header > div {
+    max-width: 1000px;
+    height: 100%;
+    width: 100%; /* dont need */
+    background: darksalmon;
+    margin: 0 auto;
+}
+
+main {
+    width: 100%;
+    height: calc(100vh - 100px);
+    background: rgb(153, 58, 153);
+}
+
+main > div {
+    max-width: 1000px;
+    background: green;
+    /**/
+
+}
+
+main > aside {
+    display: flex;
+    justify-content: center;
+    width: calc(100);
+    background: green;
+}
